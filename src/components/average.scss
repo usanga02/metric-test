@@ -1,0 +1,19 @@
+@import "../styles/variables";
+
+.average {
+  position: relative;
+  justify-content: space-between;
+  div {
+    display: flex;
+  }
+  &::before {
+    content: " . ";
+    font-size: 1px;
+    position: absolute;
+    left: -20px;
+    top: 7px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: $green-color;
+  }
+}

@@ -1,0 +1,9 @@
+@import "../Styles/variables";
+@import "../Styles/mixins";
+
+.heading {
+  h1 {
+    margin-bottom: 24px;
+    color: $dark-color;
+  }
+}

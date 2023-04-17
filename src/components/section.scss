@@ -1,0 +1,47 @@
+@import "../styles/variables";
+
+.section-container {
+  display: flex;
+  margin-top: 44px;
+  justify-content: left;
+
+  .section-column {
+    width: 50%;
+    display: flex;
+
+    img {
+      margin-right: 15px;
+    }
+
+    .help {
+      color: $primary-color;
+    }
+
+    .gray-text {
+      color: $gray-color;
+    }
+  }
+  .first-section div {
+    display: flex;
+
+    .text-red {
+      color: $orange-color;
+    }
+
+    span {
+      margin-left: 10px;
+    }
+    &:first-child {
+      span {
+        padding: 0 5px;
+        font-size: 14px;
+        border-radius: 40%;
+        color: #fff;
+        background-color: $green-color;
+      }
+      .span-red {
+        background-color: $orange-color;
+      }
+    }
+  }
+}
