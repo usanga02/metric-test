@@ -2,7 +2,7 @@ import "./App.scss";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import { Last3days, LastHour, Today, Yesterday } from "./pages";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

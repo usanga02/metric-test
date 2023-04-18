@@ -43,7 +43,7 @@ const Last3days = (props: Props) => {
         Other={second.count + third.count}
       />
       <Section
-        icon="../../Searches-icon.png"
+        icon="/metric-test/Searches-icon.png"
         title="Searches"
         percentage="+5"
         resValue={searches_current_last_3days}
@@ -55,7 +55,7 @@ const Last3days = (props: Props) => {
       />
       <br className="line-break" />
       <Section
-        icon="../../Clicks-icon.png"
+        icon="/metric-test/Clicks-icon.png"
         title="Clicks"
         percentage="-13"
         resValue={clicks_current_last_3days}
@@ -66,7 +66,7 @@ const Last3days = (props: Props) => {
       />
       <br className="line-break" />
       <Section
-        icon="../../Sales-icon.png"
+        icon="/metric-test/Sales-icon.png"
         title="Sales"
         resValue={bookings_current_last_3days}
         prevValue={bookings_previous_last_3days}

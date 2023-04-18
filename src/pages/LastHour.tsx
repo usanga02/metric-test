@@ -37,7 +37,7 @@ const LastHour = (props: Props) => {
         Other={330}
       />
       <Section
-        icon="../../Searches-icon.png"
+        icon="/metric-test/Searches-icon.png"
         title="Searches"
         percentage="+5"
         resValue={searches_current_last_hour}
@@ -49,7 +49,7 @@ const LastHour = (props: Props) => {
       />
       <br className="line-break" />
       <Section
-        icon="../../Clicks-icon.png"
+        icon="/metric-test/Clicks-icon.png"
         title="Clicks"
         percentage="-13"
         resValue={clicks_current_last_hour}
@@ -60,7 +60,7 @@ const LastHour = (props: Props) => {
       />
       <br className="line-break" />
       <Section
-        icon="../../Sales-icon.png"
+        icon="/metric-test/Sales-icon.png"
         title="Sales"
         resValue={bookings_current_last_hour}
         prevValue={bookings_previous_last_hour}

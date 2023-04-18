@@ -42,7 +42,7 @@ const Yesterday = (props: Props) => {
         Other={first.count + second.count}
       />
       <Section
-        icon="../../Searches-icon.png"
+        icon="/metric-test/Searches-icon.png"
         title="Searches"
         percentage="+5"
         resValue={searches_current_yesterday}
@@ -54,7 +54,7 @@ const Yesterday = (props: Props) => {
       />
       <br className="line-break" />
       <Section
-        icon="../../Clicks-icon.png"
+        icon="/metric-test/Clicks-icon.png"
         title="Clicks"
         percentage="-13"
         resValue={clicks_current_yesterday}
@@ -65,7 +65,7 @@ const Yesterday = (props: Props) => {
       />
       <br className="line-break" />
       <Section
-        icon="../../Sales-icon.png"
+        icon="/metric-test/Sales-icon.png"
         title="Sales"
         resValue={bookings_current_yesterday}
         prevValue={bookings_previous_yesterday}

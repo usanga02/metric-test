@@ -17,7 +17,7 @@ const Today = (props: Props) => {
         Other={330}
       />
       <Section
-        icon="../../Searches-icon.png"
+        icon="/metric-test/Searches-icon.png"
         title="Searches"
         percentage="+5"
         resValue={0}
@@ -29,7 +29,7 @@ const Today = (props: Props) => {
       />
       <br className="line-break" />
       <Section
-        icon="../../Clicks-icon.png"
+        icon="/metric-test/Clicks-icon.png"
         title="Clicks"
         percentage="-13"
         resValue={0}
@@ -40,7 +40,7 @@ const Today = (props: Props) => {
       />
       <br className="line-break" />
       <Section
-        icon="../../Sales-icon.png"
+        icon="/metric-test/Sales-icon.png"
         title="Sales"
         resValue={0}
         prevValue={0}
