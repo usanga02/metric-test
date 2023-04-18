@@ -55,7 +55,13 @@ const Section = ({
       </div>
       <div className="section-column">
         <div>
-          <h3>{title2}</h3>
+          <h3
+            className={
+              percentage ? (Number(percentage) < 0 ? "text-red" : "") : ""
+            }
+          >
+            {title2}
+          </h3>
           <h3>{title3}</h3>
           <p className="gray-text">{desc}</p>
           <p>

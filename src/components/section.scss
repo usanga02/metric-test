@@ -2,7 +2,7 @@
 
 .section-container {
   display: flex;
-  margin-top: 44px;
+  margin-top: 34px;
   justify-content: left;
 
   .section-column {
@@ -20,13 +20,13 @@
     .gray-text {
       color: $gray-color;
     }
-  }
-  .first-section div {
-    display: flex;
 
     .text-red {
       color: $orange-color;
     }
+  }
+  .first-section div {
+    display: flex;
 
     span {
       margin-left: 10px;
