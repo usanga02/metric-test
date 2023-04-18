@@ -42,8 +42,8 @@ const LastHour = (props: Props) => {
         percentage="+5"
         resValue={searches_current_last_hour}
         prevValue={searches_previous_last_hour}
-        title2={`Mobile Traffic: ${mobile_pessimizer}%`}
-        title3={`Web Traffic: ${web_pessimizer}%`}
+        title2={`Mobile Traffic: ${mobile_pessimizer.toFixed(2)}%`}
+        title3={`Web Traffic: ${web_pessimizer.toFixed(2)}%`}
         desc="You get 100% traffic on mobile and desktop devices"
         help={["Searches", "Pessimisation"]}
       />
@@ -54,7 +54,7 @@ const LastHour = (props: Props) => {
         percentage="-13"
         resValue={clicks_current_last_hour}
         prevValue={clicks_previous_last_hour}
-        title2={`CTR: ${ctr_last_hour}%`}
+        title2={`CTR: ${ctr_last_hour.toFixed(2)}%`}
         desc="Conversion from searches to clicks on all devices"
         help={["CTR", "Clicks"]}
       />
@@ -65,7 +65,7 @@ const LastHour = (props: Props) => {
         resValue={bookings_current_last_hour}
         prevValue={bookings_previous_last_hour}
         title2={`STR: ${str_last_hour}%`}
-        title3={`Avg. Check: ${avg_price_last_hour}`}
+        title3={`Avg. Check: ${avg_price_last_hour.toFixed(2)}`}
         desc="Conversion from clicks to bookings on all devices"
         help={["STR", "Bookings", "Avg. Check"]}
       />

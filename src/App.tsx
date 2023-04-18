@@ -13,7 +13,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/lasthour" element={<LastHour />}></Route>
-            <Route path="/today" element={<Today />}></Route>
+            <Route path="/" element={<Today />}></Route>
             <Route path="/yesterday" element={<Yesterday />}></Route>
             <Route path="/last3days" element={<Last3days />}></Route>
           </Routes>

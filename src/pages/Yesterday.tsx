@@ -47,7 +47,7 @@ const Yesterday = (props: Props) => {
         percentage="+5"
         resValue={searches_current_yesterday}
         prevValue={searches_previous_yesterday}
-        title2={`Mobile Traffic: ${mobile_pessimizer}%`}
+        title2={`Mobile Traffic: ${mobile_pessimizer.toFixed(2)}%`}
         title3={`Web Traffic: ${web_pessimizer}%`}
         desc="You get 100% traffic on mobile and desktop devices"
         help={["Searches", "Pessimisation"]}
@@ -59,7 +59,7 @@ const Yesterday = (props: Props) => {
         percentage="-13"
         resValue={clicks_current_yesterday}
         prevValue={clicks_previous_yesterday}
-        title2={`CTR: ${ctr_yesterday}%`}
+        title2={`CTR: ${ctr_yesterday.toFixed(2)}%`}
         desc="Conversion from searches to clicks on all devices"
         help={["CTR", "Clicks"]}
       />
@@ -69,8 +69,8 @@ const Yesterday = (props: Props) => {
         title="Sales"
         resValue={bookings_current_yesterday}
         prevValue={bookings_previous_yesterday}
-        title2={`STR: ${str_yesterday}%`}
-        title3={`Avg. Check: ${avg_price_yesterday}`}
+        title2={`STR: ${str_yesterday.toFixed(2)}%`}
+        title3={`Avg. Check: ${avg_price_yesterday.toFixed(2)}`}
         desc="Conversion from clicks to bookings on all devices"
         help={["STR", "Bookings", "Avg. Check"]}
       />

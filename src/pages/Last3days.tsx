@@ -48,8 +48,8 @@ const Last3days = (props: Props) => {
         percentage="+5"
         resValue={searches_current_last_3days}
         prevValue={searches_previous_last_3days}
-        title2={`Mobile Traffic: ${mobile_pessimizer}%`}
-        title3={`Web Traffic: ${web_pessimizer}%`}
+        title2={`Mobile Traffic: ${mobile_pessimizer.toFixed(2)}%`}
+        title3={`Web Traffic: ${web_pessimizer.toFixed(2)}%`}
         desc="You get 100% traffic on mobile and desktop devices"
         help={["Searches", "Pessimisation"]}
       />
@@ -60,7 +60,7 @@ const Last3days = (props: Props) => {
         percentage="-13"
         resValue={clicks_current_last_3days}
         prevValue={clicks_previous_last_3days}
-        title2={`CTR: ${ctr_last_3days}%`}
+        title2={`CTR: ${ctr_last_3days.toFixed(2)}%`}
         desc="Conversion from searches to clicks on all devices"
         help={["CTR", "Clicks"]}
       />
@@ -70,8 +70,8 @@ const Last3days = (props: Props) => {
         title="Sales"
         resValue={bookings_current_last_3days}
         prevValue={bookings_previous_last_3days}
-        title2={`STR: ${str_last_3days}%`}
-        title3={`Avg. Check: ${avg_price_last_3days}`}
+        title2={`STR: ${str_last_3days.toFixed(2)}%`}
+        title3={`Avg. Check: ${avg_price_last_3days.toFixed(2)}`}
         desc="Conversion from clicks to bookings on all devices"
         help={["STR", "Bookings", "Avg. Check"]}
       />

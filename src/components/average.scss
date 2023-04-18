@@ -3,6 +3,11 @@
 .average {
   position: relative;
   justify-content: space-between;
+
+  span {
+    color: $gray-color;
+  }
+
   div {
     display: flex;
   }

@@ -6,7 +6,7 @@ type Props = {};
 
 const items = [
   { label: "Last Hour", location: "/lasthour" },
-  { label: "Today", location: "/today" },
+  { label: "Today", location: "/" },
   { label: "Yesterday", location: "/yesterday" },
   { label: "Last 3 days", location: "/last3days" },
 ];
